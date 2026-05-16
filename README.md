@@ -91,7 +91,7 @@ react-product-store/
 
 Check it out here:
 
-https://kenil948.github.io/react-product-store/
+https://kenil948.github.io/react-product-store/#/
 
 ## How to Run
 
