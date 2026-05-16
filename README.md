@@ -38,7 +38,7 @@ react-product-store/
 │
 ├── src/
 │   ├── assets/
-│   │   └── images/
+│   │   └── screenshots/
 │   │       ├── add-product.jpg
 │   │       ├── edit-product.jpg
 │   │       ├── home-page.jpg
