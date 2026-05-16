@@ -73,19 +73,19 @@ react-product-store/
 
 ### Home Page
 
-![Home Page](./src/assets/images/home-page.jpg)
+![Home Page](./src/assets/screenshots/home-page.jpg)
 
 ### Product Details Page
 
-![Product Details](./src/assets/images/product-details.jpg)
+![Product Details](./src/assets/screenshots/product-details.jpg)
 
 ### Add Product Page
 
-![Add Product](./src/assets/images/add-product.jpg)
+![Add Product](./src/assets/screenshots/add-product.jpg)
 
 ### Edit Product Page
 
-![Edit Product](./src/assets/images/edit-product.jpg)
+![Edit Product](./src/assets/screenshots/edit-product.jpg)
 
 ## Live Demo
 
