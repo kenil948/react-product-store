@@ -48,7 +48,7 @@ function Navbar() {
   distinctCategory = [...new Set(distinctCategory)];
 
   return (
-    <nav className="w-full md:w-[20%] md:h-full bg-zinc-50 px-5 py-4 sm:p-5 flex flex-col items-center shrink-0 border-b md:border-b-0 md:border-r border-zinc-200">
+    <nav className="w-full md:w-[20%] md:h-full bg-zinc-50 max-md:sticky max-md:top-0 z-10 px-5 py-4 sm:p-5 flex flex-col items-center shrink-0 border-b md:border-b-0 md:border-r border-zinc-200">
       <div className="w-full flex items-center justify-between md:justify-center">
         <Link
           className="border px-4 py-2 md:px-5 md:py-2 rounded-full border-zinc-900 bg-zinc-900 text-white text-sm font-medium shadow-xs hover:bg-zinc-800 transition active:scale-95 motion-reduce:active:scale-100"
