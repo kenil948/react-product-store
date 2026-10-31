@@ -1,10 +1,5 @@
 # React Product Store
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white)
-
 A responsive product management app built with React, Tailwind CSS and the Context API. Browse products, filter by category, and add, edit or delete items. The layout adapts smoothly from 320px phones to large desktop screens.
 
 **[Live Demo](https://react-product-store-three.vercel.app/)**
@@ -19,9 +14,9 @@ A responsive product management app built with React, Tailwind CSS and the Conte
 
 ### Mobile
 
-| Home | Form |
-|------|---------|------|
-| ![Home Mobile](./src/assets/screenshots/home-mobile.jpg) ![Form Mobile](./src/assets/screenshots/form-mobile.jpg) |
+| Home | Add Product |
+|------|-------------|
+| ![Home Mobile](./src/assets/screenshots/home-mobile.jpg) | ![Add Product Mobile](./src/assets/screenshots/add-mobile.jpg) |
 
 ## Features
 
@@ -29,7 +24,7 @@ A responsive product management app built with React, Tailwind CSS and the Conte
 - **Category filtering** with a highlighted active category
 - **Full CRUD**: add, edit and delete products, with Cancel buttons on both forms
 - **Form validation** with clear, specific error messages and dollar-only price rules
-- **Responsive design** from 320px to 1920px and above
+- **Responsive design** from 320px to 1920px and above, with a sticky header on mobile
 - **LocalStorage persistence**, so changes survive a page refresh
 - **Toast notifications** for success and error feedback
 - **Clean UI** with a soft neutral palette, rounded cards, and hover and focus states
@@ -38,7 +33,7 @@ A responsive product management app built with React, Tailwind CSS and the Conte
 
 | Screen | Layout |
 |--------|--------|
-| Phones (below 768px) | Stacked layout, top bar, scrollable category chips, 2-column grid |
+| Phones (below 768px) | Stacked layout, sticky top bar, scrollable category chips, 2-column grid |
 | Tablets (768px to 1023px) | 3-column grid |
 | Laptops (1024px to 1279px) | 4-column grid with sidebar |
 | Desktops (1280px and above) | Sidebar with 5-card product rows |
